@@ -1,0 +1,17 @@
+{
+  "name": "tstarryheavens-prog/HealthViewer",
+  "version": "0.1.0",
+  "description": "A browser-based health and wellness dashboard for tracking daily metrics, workouts, nutrition, sleep, and habits.",
+  "main": "public/index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "python app.py",
+    "lint": "flake8 .",
+    "test": "pytest tests/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pytest": "^7.0.0"
+  }
+}
